@@ -8,7 +8,7 @@ import java.net.URI;
 
 public class Main {
 
-    public static String BASE_URI = "http://localhost:8080/";
+        public static String BASE_URI = "http://localhost:8080/";
 
     public static void main(String[] args) {
         startServer();
