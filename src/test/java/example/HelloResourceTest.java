@@ -37,13 +37,6 @@ public class HelloResourceTest {
         System.out.println("### response:" + response.getStatus());
         System.out.println("### response:" + response.readEntity(String.class));
 
-//        // convert json string to JSONObject
-//        JSONObject actual = new JSONObject(response);
-//
-//        String expected = """
-//            {"name":"aaa","id":111}
-//            """;
-//        assertThat(actual).usingRecursiveComparison().isEqualTo(new JSONObject(expected));
     }
 
 }
